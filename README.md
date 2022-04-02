@@ -8,7 +8,7 @@
 
 ## Code
 
-Coming Soon!
+More documentation is coming next week!
 
 ## Citation
 
