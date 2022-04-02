@@ -1,6 +1,6 @@
 # SinNeRF: Training Neural Radiance Fields on Complex Scenes from a Single Image
 
-[[Paper]]() [[Website]](https://ir1d.github.io/SinNeRF/)
+[[Paper]]() [[Website]](https://vita-group.github.io/SinNeRF/)
 
 ## Pipeline
 
