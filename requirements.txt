@@ -1,0 +1,18 @@
+torch
+torchvision
+pytorch-lightning==0.10.0
+test-tube
+kornia
+opencv-python
+matplotlib
+jupyter
+transformers
+einops
+piq
+vit_pytorch
+timm
+scikit-image
+
+# for point cloud
+plyfile
+open3d
