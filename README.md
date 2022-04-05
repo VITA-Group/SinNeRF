@@ -32,6 +32,10 @@ Refactoring in progress.
 
 More documentation and training scripts are coming next week!
 
+## Acknowledgement
+
+Codebase based on https://github.com/kwea123/nerf_pl . Thanks for sharing!
+
 ## Citation
 
 If you find this repo is helpful, please cite:
