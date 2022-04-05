@@ -4,7 +4,7 @@
 
 ## Pipeline
 
-![](./docs/static/media/SinNeRF.drawio.dafbaf215735d107d9eb.png)
+![](./docs/static/media/SinNeRF.drawio.01f837d9d69b1db62c00.jpg)
 
 ## Code
 
