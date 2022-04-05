@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SinNeRF/static/css/main.f936098d.css",
-    "main.js": "/SinNeRF/static/js/main.3122a6ed.js",
+    "main.js": "/SinNeRF/static/js/main.1bcb6d70.js",
     "static/js/787.71e672d5.chunk.js": "/SinNeRF/static/js/787.71e672d5.chunk.js",
     "static/media/Teaser-SinNeRF.drawio.png": "/SinNeRF/static/media/Teaser-SinNeRF.drawio.89b3563d27dbdb79b7ee.png",
     "static/media/SinNeRF.drawio.png": "/SinNeRF/static/media/SinNeRF.drawio.dafbaf215735d107d9eb.png",
@@ -55,11 +55,11 @@
     "static/media/revicons.woff": "/SinNeRF/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/SinNeRF/index.html",
     "main.f936098d.css.map": "/SinNeRF/static/css/main.f936098d.css.map",
-    "main.3122a6ed.js.map": "/SinNeRF/static/js/main.3122a6ed.js.map",
+    "main.1bcb6d70.js.map": "/SinNeRF/static/js/main.1bcb6d70.js.map",
     "787.71e672d5.chunk.js.map": "/SinNeRF/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f936098d.css",
-    "static/js/main.3122a6ed.js"
+    "static/js/main.1bcb6d70.js"
   ]
 }

@@ -1,6 +1,6 @@
 # SinNeRF: Training Neural Radiance Fields on Complex Scenes from a Single Image
 
-[[Paper]]() [[Website]](https://vita-group.github.io/SinNeRF/)
+[[Paper]](https://arxiv.org/abs/2204.00928) [[Website]](https://vita-group.github.io/SinNeRF/)
 
 ## Pipeline
 
@@ -45,7 +45,7 @@ If you find this repo is helpful, please cite:
 @InProceedings{Xu_2022_SinNeRF,
 author = {Xu, Dejia and Jiang, Yifan and Wang, Peihao and Fan, Zhiwen and Shi, Humphrey and Wang, Zhangyang},
 title = {SinNeRF: Training Neural Radiance Fields on Complex Scenes from a Single Image},
-journal={arXiv preprint arXiv:},
+journal={arXiv preprint arXiv:2204.00928},
 year={2022}
 }
 
