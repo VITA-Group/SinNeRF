@@ -38,6 +38,7 @@ def get_opts():
 
     parser.add_argument('--ckpt_path', type=str, default=None,
                         help='pretrained checkpoint path to load')
+    # load everything
     parser.add_argument('--prefixes_to_ignore', nargs='+', type=str, default=['loss'],
                         help='the prefixes to ignore in the checkpoint state dict')
 
@@ -81,6 +82,7 @@ def get_opts():
     parser.add_argument('--patch_size_x', type=int, default=-1)
     parser.add_argument('--patch_size_y', type=int, default=-1)
     parser.add_argument('--pt_model', type=str, default=None)
+    # load ckpt only
     parser.add_argument('--model', type=str,
                         default="nerf", choices=['sinnerf'])
     parser.add_argument('--repeat', type=int, default=1)
@@ -97,8 +99,8 @@ def get_opts():
     # discriminator loss type
     parser.add_argument('--load_depth', default=False,
                         action="store_true")  # use depth
-    # load weight of nerf only from checkpoint
     parser.add_argument('--nerf_only', default=False, action="store_true")
+    # load weight of nerf only from checkpoint
     parser.add_argument('--depth_type', type=str,
                         default='nerf')  # depth supervision type
     # weight of discriminator loss
