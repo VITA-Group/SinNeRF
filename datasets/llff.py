@@ -253,7 +253,7 @@ class LLFFDataset(Dataset):
         # else:
         #     first_train = False
         if self.split == 'train':  # create buffer of all rays and rgb data
-                                  # use first N_images-1 to train, the LAST is val
+            # use first N_images-1 to train, the LAST is val
             self.all_rays = []
             self.all_rgbs = []
             for i, image_path in enumerate(self.image_paths):
@@ -395,7 +395,7 @@ class LLFFDataset(Dataset):
 
 
 if __name__ == "__main__":
-    dataset = LLFFDataset('/home/dejia/dataset/nerf_llff_data/flower', split='train', load_depth=True,
+    dataset = LLFFDataset('/flower', split='train', load_depth=True,
                           depth_type='nerf', sH=6, sW=6, patch_size_x=60, patch_size_y=80, with_ref=True)
 
     item = dataset[0]

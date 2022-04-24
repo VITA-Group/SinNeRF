@@ -1,6 +1,7 @@
 import torch
 import argparse
 
+
 def get_opts():
     parser = argparse.ArgumentParser()
 
@@ -8,6 +9,7 @@ def get_opts():
                         help='checkpoint path')
 
     return parser.parse_args()
+
 
 if __name__ == "__main__":
     args = get_opts()

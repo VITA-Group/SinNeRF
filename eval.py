@@ -176,7 +176,7 @@ if __name__ == "__main__":
                 np.save(os.path.join(dir_name, f'{fname}.npy'), depth_pred)
             else:
                 # with open(f'depth_{fname}', 'wb') as f:
-                    # f.write(depth_pred.tobytes())
+                # f.write(depth_pred.tobytes())
                 visualize_depth(depth_pred).save(
                     os.path.join(dir_name, f'{fname}_depth.png'))
 

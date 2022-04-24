@@ -8,7 +8,7 @@ from torch.nn import Module
 @jit.script
 def widened_sigmoid(x: Tensor) -> Tensor:
     """Functional widened sigmoid activation
-    
+
     Arguments:
         x (Tensor): input tensor
 
@@ -23,7 +23,7 @@ def widened_sigmoid(x: Tensor) -> Tensor:
 @jit.script
 def shifted_softplus(x: Tensor) -> Tensor:
     """Functional shifted softplus activation
-    
+
     Arguments:
         x (Tensor): input tensor
 
@@ -37,13 +37,13 @@ def shifted_softplus(x: Tensor) -> Tensor:
 
 class WidenedSigmoid(Module):
     """Module widened sigmoid activation"""
-    
+
     def __init__(self) -> None:
         super().__init__()
 
     def forward(self, x: Tensor) -> Tensor:
         """Forward widened sigmoid activation
-    
+
         Arguments:
             x (Tensor): input tensor
 
@@ -61,7 +61,7 @@ class ShiftedSoftplus(Module):
 
     def forward(self, x: Tensor) -> Tensor:
         """Forward shifted softplus activation
-    
+
         Arguments:
             x (Tensor): input tensor
 
