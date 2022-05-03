@@ -1,0 +1,26 @@
+.carousel {
+  width: 100%;
+  /* height: 380px; */
+  margin: auto;
+}
+
+.carousel-control-prev {
+  /* height: 300px; */
+}
+.carousel-control-next {
+  /* height: 300px; */
+}
+
+.carousel .carousel-control-prev-icon {
+  visibility: hidden;
+}
+.carousel:hover .carousel-control-prev-icon {
+  visibility: visible;
+}
+
+.carousel .carousel-control-next-icon {
+  visibility: hidden;
+}
+.carousel:hover .carousel-control-next-icon {
+  visibility: visible;
+}
