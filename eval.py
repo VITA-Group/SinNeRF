@@ -44,8 +44,8 @@ def get_opts():
                         required=True,
                         help='root directory of dataset')
     parser.add_argument('--dataset_name', type=str, default='blender',
-                        choices=['blender', 'llff',
-                                 'blender_ray_patch_1image', 'dtu_proj'],
+                        choices=['llff',
+                                 'blender_ray_patch_1image_rot3d', 'dtu_proj'],
                         help='which dataset to validate')
     parser.add_argument('--scene_name', type=str, default='test',
                         help='scene name, used as output folder name')
