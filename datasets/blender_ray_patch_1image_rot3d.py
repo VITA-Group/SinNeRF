@@ -118,7 +118,7 @@ def project_with_depth(depth_ref, intrinsics_ref, extrinsics_ref, intrinsics_src
 
     K_xyz_src = torch.matmul(intrinsics_src, xyz_src)  # B*3*20480
     depth_src = K_xyz_src[:, 2:3, :]
-    xy_src = K_xyz_src[:, :2, :] / K_xyz_src[:, 2:3, :]
+    xy_src = K_xyz_src[:, :2, :] / (K_xyz_src[:,2:3,:] + 1e-9)
     x_src = xy_src[:, 0, :].view([batchsize, height, width])
     y_src = xy_src[:, 1, :].view([batchsize, height, width])
     # print(x_src.shape) #B*128*160
@@ -141,6 +141,7 @@ def forward_warp(data, depth_ref, intrinsics_ref, extrinsics_ref, intrinsics_src
     y_res = np.clip(np.floor(y_res.numpy()), 0, width - 1)  # .astype(np.int64)
     x_res = np.clip(np.floor(x_res.numpy()), 0,
                     height - 1)  # .astype(np.int64)
+    # print(x_res.min(), x_res.max(), y_res.min(), y_res.max())
     # be careful with nan
     x_res = x_res.astype(np.int64)
     y_res = y_res.astype(np.int64)
