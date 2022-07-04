@@ -1,4 +1,4 @@
-name: nerf_pl
+name: SinNeRF
 channels:
   - pytorch
   - conda-forge
@@ -104,7 +104,6 @@ dependencies:
     - debugpy==1.5.1
     - defusedxml==0.7.1
     - deprecation==2.1.0
-    - detectron2==0.6
     - dotmap==1.3.26
     - editdistance==0.6.0
     - einops==0.4.0
