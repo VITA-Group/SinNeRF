@@ -107,7 +107,7 @@ def get_opts():
     parser.add_argument('--dis_weight', type=float, default=0.001)
     # weight of loss on projected views
     parser.add_argument('--proj_weight', type=float, default=1)
-    parser.add_argument('--angle', type=int, default=30)  # angle for rot3d
+    parser.add_argument('--angle', type=int, default=20)  # angle for rot3d
     parser.add_argument('--scan', type=int, default=4)  # for dtu dataset
     # weight for depth supervision
     parser.add_argument('--depth_weight', type=float, default=0.05)
