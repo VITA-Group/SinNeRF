@@ -92,6 +92,8 @@ More finetuning with smaller strides benefits reconstruction quality.
 python eval.py  --dataset_name llff  --root_dir /dataset/nerf_llff_data/room --N_importance 64 --img_wh 504 378 --model nerf --ckpt_path ckpts/room.ckpt --timestamp test
 ```
 
+Please use `--split val` for NeRF synthetic dataset.
+
 ## Acknowledgement
 
 Codebase based on https://github.com/kwea123/nerf_pl . Thanks for sharing!
